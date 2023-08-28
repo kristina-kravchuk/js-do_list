@@ -1,0 +1,44 @@
+.heading, .container{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.inputField{
+    padding: 20px;
+    width: 30%;
+    border-color: #CCEEBC;
+}
+.btn{
+    padding:20px;
+    background-color: #CCEEBC;
+    border: none;
+}
+h1{
+    color: #85A389;
+    font-size: 60px;
+}
+.toDoList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addList{
+    padding:20px;
+    width: 50%;
+    background-color:#CCEEBC;
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    border: #85A389 solid 1px;
+}
+.completed{
+    background-color:#17594A;
+    text-decoration: line-through;
+    transition: all 3s ease;
+}
